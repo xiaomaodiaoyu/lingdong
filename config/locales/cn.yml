@@ -1,11 +1,11 @@
 cn:
-  welcome_title: "%{COMPANY_NAME_CN}"
+  welcome_title: "羚动咨询"
   contact_us: "联系我们"
   headline: "锐动如羚 奔跃前进"
   first_point: "公司简介"
   first_description: |
     我们致力于为合作伙伴提供专业、创新和个性化的营销和广告方案，助推企业在激烈的市场竞争中脱颖而出，驶向蓝海。我们恒守专业标准，关注服务质量和市场表现。
-  second_point: "我们价值观"
+  second_point: "我们的价值观"
   second_description: |
     简洁高效，迅速应变。
     客户至上，诚信专业。
