@@ -1,9 +1,13 @@
 <% provide(:title, t(:welcome_title)) %>
-<div class="container">
-  <div class="hero-unit">
-      <h1><%= @headline %></h1>
-      <h2><%= @subline %></h2>
+
+<div class="hero-unit">
+	<div class="container">
+    <h1><%= @headline %></h1>
+    <h2><%= @subline %></h2>
   </div>
+</div>
+<div class="container">
+
   <div class="row introduction">
     <%= render partial: 'column', locals: { icon_name: "lightbulb", point: @first_point, description: @first_description } %>
     <%= render partial: 'column', locals: { icon_name: "group", point: @second_point, description: @second_description } %>
