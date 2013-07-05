@@ -1,0 +1,14 @@
+@media (max-width: 480px) {
+	.hero-unit {
+		background-image: url(antelope-small.jpg);
+		h1 {
+			font-size: 45px;
+		}
+		h2 {
+			font-size: 28px;
+		}
+		h1, h2 {
+			color: rgba(255, 255, 255, 0.7);
+		}
+	}
+}

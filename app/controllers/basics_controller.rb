@@ -11,8 +11,7 @@ class BasicsController < ApplicationController
   	@third_description = Faker::LoremCN.paragraph
 =end
     @headline = t :headline
-    @subline = Faker::LoremCN.words.join 
-    #@subline = t :subline
+    @subline = t :subline
     @first_point = t(:first_point)
     @first_description = t(:first_description)
     @second_point = t(:second_point)

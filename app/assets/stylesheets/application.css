@@ -12,5 +12,6 @@
  *= require 'bootstrap.css'
  *= require 'basics.css.scss'
  *= require 'bootstrap-responsive.css'
+ *= require 'resize.css.scss'
  *= require font-awesome
  */

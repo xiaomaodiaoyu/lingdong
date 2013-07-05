@@ -36,12 +36,12 @@ html, body {
 
 .hero-unit {
 	height: 220px;
-	background-image: url(antelopes-left.jpg);
+	background-image: url("antelope.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 0;
 	h1, h2 {
-		color: black;
+		color: rgba(0, 0, 0, 0.8);
 	}
 }
 
