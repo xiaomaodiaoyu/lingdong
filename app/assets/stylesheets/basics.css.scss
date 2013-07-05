@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-	padding-top: 70px;
+	padding-top: 90px;
 }
 
 footer {
@@ -20,15 +20,28 @@ html, body {
 }
 
 .navbar {
-	//margin-bottom: 0;
   .navbar-inner > .container {
 	  padding: 0 5%;
 	  height: 70px;
   }
+  #logo{
+	  height: 68px;
+	  margin: 5px 10px 5px 0;
+  }
+}
+
+.navbar .nav > li > a {
+	line-height: 5;
 }
 
 .hero-unit {
 	height: 220px;
+	background-image: url(antelopes-left.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	h1, h2 {
+		color: black;
+	}
 }
 
 .icon-large {

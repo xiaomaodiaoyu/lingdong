@@ -1,8 +1,9 @@
-<header class="navbar navbar-inverse navbar-fixed-top">
+<header class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
     <div class="container">
 
-      <%= link_to COMPANY_NAME_CN, root_path, class: 'brand' %>
+      <%= link_to image_tag('logo.png', id: "logo") + COMPANY_NAME_CN, root_path, class: "brand" %>
+
       <ul class="nav pull-right">
         <li><%= link_to t(:contact_us), '#' %></li>
       </ul>
